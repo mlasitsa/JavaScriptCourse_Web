@@ -15,10 +15,10 @@ const Header = () => {
           <h1>JavaScript Course</h1>
         </div>
         <div className="right">
-          <a href="https://www.linkedin.com/in/maxlasitsa/" target="_blank" className="LinkedIn">
+          <a href="https://www.linkedin.com/in/maxlasitsa/" target="_blank" >
             <img src={linkedinLogo} alt="LinkedIn Logo" className="logo" />
           LinkedIn</a>
-          <a href="https://github.com/mlasitsa" target="_blank"  className="GitHub">
+          <a href="https://github.com/mlasitsa" target="_blank"  >
           <img src={githubLogo} alt="GitHub Logo" className="logo" />
           GitHub</a>
         </div>
