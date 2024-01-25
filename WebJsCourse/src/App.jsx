@@ -18,11 +18,11 @@ export default function App() {
       <IntroBox />
       </div>
 
-      <ul className='unitBoxLine'>
+      <div className='unitBoxLine'>
         <li><UnitBox {...units[0]}/></li>
         <li><UnitBox {...units[1]}/></li>
         <li><UnitBox {...units[2]}/></li>
-      </ul>
+      </div>
 
       <ul className='unitBoxLine'>
         <li><UnitBox {...units[3]}/></li>

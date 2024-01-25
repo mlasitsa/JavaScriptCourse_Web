@@ -167,7 +167,6 @@ button:focus-visible {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-right: 40px;
   }
 
   .unitBox p {
