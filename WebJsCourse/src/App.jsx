@@ -4,6 +4,7 @@ import Rectangle from './components/Rectangle/Rectangle'
 import IntroBox from './components/IntroBox/IntroBox'
 import UnitBox from './components/UnitBox/UnitBox'
 import {units} from './unitData'
+import {intro} from './introData'
 
 export default function App() {
  return ( 
@@ -15,7 +16,7 @@ export default function App() {
     <body>
       <Rectangle />
       <div className='introBoxBody'>
-      <IntroBox />
+      <IntroBox {...intro}/>
       </div>
 
       <div className='unitBoxLine'>

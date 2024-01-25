@@ -1,12 +1,12 @@
 import React from "react";
 import '/src/index.css';
 
-const IntroBox = () => {
+const IntroBox = ({unit, title, link}) => {
     return (
         <div className="introBox">
-            <p>INTRODUCTION</p>
-            <p>Installation guide: Visual Studio Code, Node.JS, GIT repository clone</p>
-            <button>COMING SOON</button>
+            <p>{unit}</p>
+            <p>{title}</p>
+            <button onClick={() => window.open(link, '_blank')}>COMING SOON</button>
         </div>
     )
 }
