@@ -85,7 +85,9 @@ button:focus-visible {
 
 .logo {
   max-width: 100%; 
+  
 }
+
 
 .main-layout {
   display: flex;
@@ -160,6 +162,8 @@ button:focus-visible {
     align-items: center;    
     font-weight: bold;
     border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .unitBoxLine {
@@ -167,6 +171,8 @@ button:focus-visible {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    margin-left: 10px;
+    margin-left: 10px;
   }
 
   .unitBox p {
