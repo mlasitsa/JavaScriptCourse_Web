@@ -11,7 +11,7 @@ const MainPage = () => {
               <h1>Hi, Everyone</h1>
               <h2>My name is Maxim Lasitsa</h2> 
               <h2>and I am an international student</h2>
-              <h2>@The College of st. Scholastica</h2>
+              <h2>@The College of St. Scholastica</h2>
             </div>
         </div>
           <div className="course-description">
